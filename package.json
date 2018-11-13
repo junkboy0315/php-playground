@@ -1,0 +1,23 @@
+{
+  "name": "php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "run_php": {
+      "patterns": [
+        "index.php"
+      ],
+      "quiet": true
+    }
+  },
+  "scripts": {
+    "run_php": "clear && php index.php",
+    "watch": "npm-watch run_php"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-watch": "^0.4.0"
+  }
+}
